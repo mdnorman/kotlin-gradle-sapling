@@ -11,7 +11,7 @@ group = "CHANGEME"
 version = "0.0.1"
 
 val kotlinVersion = "1.6.0"
-val junitVersion = "5.9.0"
+val junitVersion = "5.9.1"
 
 plugins {
   kotlin("jvm") version "1.7.10"
@@ -28,7 +28,7 @@ repositories {
 dependencies {
   implementation("io.github.microutils:kotlin-logging:2.1.23")
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-  implementation("org.slf4j:slf4j-simple:2.0.1")
+  implementation("org.slf4j:slf4j-simple:2.0.2")
   implementation(kotlin("reflect", kotlinVersion))
   implementation(kotlin("stdlib-jdk8", kotlinVersion))
   testImplementation("com.natpryce:hamkrest:1.8.0.1")
