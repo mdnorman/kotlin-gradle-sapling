@@ -10,7 +10,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 group = "CHANGEME"
 version = "0.0.1"
 
-val kotlinVersion = "1.7.22"
+val kotlinVersion = "1.8.0"
 val junitVersion = "5.9.2"
 
 plugins {
