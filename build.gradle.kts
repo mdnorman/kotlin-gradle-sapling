@@ -11,7 +11,7 @@ group = "CHANGEME"
 version = "0.0.1"
 
 val kotlinVersion = "1.9.21"
-val junitVersion = "5.10.0"
+val junitVersion = "5.10.1"
 
 plugins {
   kotlin("jvm") version "1.7.22"
