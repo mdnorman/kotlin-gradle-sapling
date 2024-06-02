@@ -14,7 +14,7 @@ val kotlinVersion = "1.9.24"
 val junitVersion = "5.10.2"
 
 plugins {
-  kotlin("jvm") version "1.7.22"
+  kotlin("jvm") version "1.9.24"
   id("org.jetbrains.dokka") version "1.9.20"
   java
   `maven-publish`
