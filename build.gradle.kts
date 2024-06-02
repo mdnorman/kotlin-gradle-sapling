@@ -51,7 +51,7 @@ val sourceJar by tasks.creating(Jar::class) {
 
 tasks.withType<KotlinCompile> {
   kotlinOptions {
-    jvmTarget = "1.17"
+    jvmTarget = "21"
   }
 }
 
