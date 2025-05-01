@@ -27,7 +27,7 @@ repositories {
 
 dependencies {
   implementation("io.github.microutils:kotlin-logging:3.0.5")
-  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+  implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
   implementation("org.slf4j:slf4j-simple:2.0.17")
   implementation(kotlin("reflect", kotlinVersion))
   implementation(kotlin("stdlib-jdk8", kotlinVersion))
