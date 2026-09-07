@@ -10,11 +10,11 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 group = "CHANGEME"
 version = "0.0.1"
 
-val kotlinVersion = "1.9.25"
+val kotlinVersion = "2.4.10"
 val junitVersion = "5.13.2"
 
 plugins {
-  kotlin("jvm") version "1.9.25"
+  kotlin("jvm") version "2.4.10"
   id("org.jetbrains.dokka") version "1.9.20"
   java
   `maven-publish`
